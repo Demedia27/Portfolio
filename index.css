@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  
+  transition: border-bottom 0.3s ease;
+}
+
+/* Style to be applied on scroll */
+.navbar.scroll {
+  border-bottom: 2px solid hsl(342, 91%, 49%); /* Customize the border color and thickness */
+}
+
+#hero{
+ height: 90vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero h2{
+  justify-content: center;
+  align-items: center;
+}
+.nav-link:hover {
+color: goldenrod !important;
+}
+
+
+
+/* #hero {
+  background-image: url(./images/splendid.png);
+ 
+  background-repeat: no-repeat;
+  height: 450px;
+  background-size: 55rem;
+  background-position-x: center;
+  animation-name: change; 
+  animation-duration: 7s;
+  animation-delay: 7s;
+  animation-iteration-count: infinite  ;
+} */
+
+@keyframes change{
+  0%{ background-image: url(./images/splendid.png); }
+
+ 
+  
+  50%{ background-image: url(./images/School.png);}
+
+  
+  
+  100%{ background-image: url(./images/Inventory.png); } 
+}
+
+.zoom {
+  transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* Adjust the scale as needed */
+}
+
+
+
+
+.rounded-circle{
+  border-radius: 100%;
+}
+#form{
+  box-shadow: 14px 14px 30px rgba(0, 0, 0, 0.2);
+}
+.container-fluid{
+  margin-left: 9%;
+  /* margin-right: -14.5%; */
+  /* border-left: 1px solid #00d9ff; */
+}
+
+.navbar-nav{
+  margin-left: 20%;
+  /* border-right: 1px solid #ff00c8; */
+  gap: 30px;
+}
+
